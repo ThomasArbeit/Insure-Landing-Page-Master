@@ -1,0 +1,17 @@
+.button{
+    font-size: 18px;
+    color: white;
+    background-color: #2B282F;
+    border: none;
+    padding: 17px 49px;
+    margin-left: 58px;
+
+    cursor: pointer;
+
+    &--cta{
+        background-color: white;
+        color: black;
+        margin: 0;
+        font-weight: 500;
+    }
+}

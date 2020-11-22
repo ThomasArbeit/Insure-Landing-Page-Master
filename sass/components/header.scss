@@ -1,0 +1,39 @@
+.header{
+    font-family: 'Karla'; 
+
+    height: 109px;
+    background-color: white;
+    padding: 0 220px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+
+    z-index: 1;
+
+    &__logo{
+        height: 24px;
+
+        img{
+            height: 100%;
+        }
+    }
+    
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__link{
+        font-size: 18px;
+        display: block;
+        color: black;
+        margin-left: 36px;
+    }
+}
