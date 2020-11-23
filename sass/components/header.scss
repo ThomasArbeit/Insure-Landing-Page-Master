@@ -1,20 +1,15 @@
 .header{
     font-family: 'Karla'; 
 
+    width: 1480px;
     height: 109px;
     background-color: white;
-    padding: 0 220px;
+
+    margin: 0 40px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-
-    z-index: 1;
 
     &__logo{
         height: 24px;

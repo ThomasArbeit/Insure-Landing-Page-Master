@@ -9,19 +9,39 @@ body {
   padding-top: 109px;
 }
 
+h1, h2, h3, h4 {
+  font-family: "DM Serif Display";
+  color: #2F2C33;
+}
+
+p {
+  font-family: "Karla";
+  line-height: 28px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container--header {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
 .header {
   font-family: "Karla";
+  width: 1480px;
   height: 109px;
   background-color: white;
-  padding: 0 220px;
+  margin: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
 }
 .header__logo {
   height: 24px;
@@ -61,23 +81,26 @@ body {
   background-color: #2C2640;
   height: 798px;
   width: 100%;
-  padding: 139px 220px 0;
-  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 139px 0 0 0;
 }
 .hero__section {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  margin: 0 40px;
+  width: 1480px;
 }
 .hero__right {
-  width: 719px;
+  width: 48%;
 }
 .hero__img {
   width: 100%;
   height: auto;
 }
 .hero__left {
-  width: 719px;
+  width: 48%;
 }
 .hero__line {
   height: 2px;
@@ -91,6 +114,7 @@ body {
   line-height: 85px;
   font-weight: 400;
   margin-bottom: 42px;
+  color: white;
 }
 .hero__tagline {
   font-family: "Karla";
@@ -98,12 +122,62 @@ body {
   line-height: 34px;
   font-weight: 400;
   margin-bottom: 46px;
+  color: white;
 }
 .hero__watermark {
   position: absolute;
   top: 6px;
   right: 0;
-  height: 80%;
+  height: 40vw;
+}
+.hero__watermark--left {
+  position: absolute;
+  left: 0;
+  bottom: -370px;
+  height: 40vw;
+}
+
+.different {
+  width: 1480px;
+  padding-top: 406px;
+  margin: 0 40px 218px;
+}
+.different__line {
+  width: 200px;
+  height: 2px;
+  background-color: #B0A4B2;
+  margin-bottom: 96px;
+}
+.different__title {
+  font-size: 95px;
+  font-family: "DM Serif Display";
+  margin-bottom: 100px;
+}
+.different__3rows {
+  display: flex;
+  justify-content: space-between;
+}
+.different__1row {
+  width: 30%;
+}
+.different__rowIcon {
+  margin-bottom: 40px;
+  width: 115px;
+}
+.different__rowIcon img {
+  width: 100%;
+}
+.different__rowTitle {
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+.different__rowParagraph {
+  font-size: 20px;
+  color: #7E7E80;
+  font-weight: 600;
+}
+.different__watermark {
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */

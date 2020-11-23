@@ -3,17 +3,22 @@
     height: 798px;
     width: 100%;
 
-    padding: 139px 220px 0;
-    color: white;
+    display: flex;
+    justify-content: center;
+
+    padding: 139px 0 0 0;
 
     &__section{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
+        margin: 0 40px;
+
+        width: 1480px;
     }
 
     &__right{
-        width: 719px;
+        width: 48%;
     }
 
     &__img{
@@ -22,7 +27,7 @@
     }
 
     &__left{
-        width: 719px;
+        width: 48%;
     }
 
     &__line{
@@ -41,6 +46,8 @@
         font-weight: 400;
 
         margin-bottom: 42px;
+
+        color: white;
     }
 
     &__tagline{
@@ -50,12 +57,21 @@
         font-weight: 400;
 
         margin-bottom: 46px;
+
+        color: white;
     }
 
     &__watermark{
         position: absolute;
         top: 6px;
         right: 0;
-        height: 80%
+        height: 40vw;
+    }
+
+    &__watermark--left{
+        position: absolute;
+        left: 0;
+        bottom: -370px;
+        height: 40vw;
     }
 }

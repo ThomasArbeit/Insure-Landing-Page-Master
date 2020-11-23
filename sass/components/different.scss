@@ -1,0 +1,53 @@
+.different{
+    width: 1480px;
+    padding-top: 406px;
+
+    margin: 0 40px 218px;
+
+    &__line{
+        width: 200px;
+        height: 2px;
+        background-color: #B0A4B2;
+
+        margin-bottom: 96px;
+    }
+
+    &__title{
+        font-size: 95px;
+        font-family: "DM Serif Display";
+        margin-bottom: 100px;
+    }
+
+    &__3rows{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__1row{
+        width: 30%;
+    }
+
+    &__rowIcon{
+        margin-bottom: 40px;
+        width: 115px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    &__rowTitle{
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+
+    &__rowParagraph{
+        font-size: 20px;
+        color: #7E7E80;
+        font-weight: 600;
+    }
+
+    &__watermark{
+        position: absolute;
+    }
+}
