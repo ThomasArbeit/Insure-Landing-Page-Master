@@ -8,6 +8,8 @@
 
     padding: 139px 0 0 0;
 
+    position: relative;
+
     &__section{
         display: flex;
         align-items: flex-start;
@@ -63,15 +65,15 @@
 
     &__watermark{
         position: absolute;
-        top: 6px;
+        top: 0;
         right: 0;
-        height: 40vw;
+        height: 90%;
     }
 
     &__watermark--left{
         position: absolute;
         left: 0;
         bottom: -370px;
-        height: 40vw;
+        height: 80%;
     }
 }

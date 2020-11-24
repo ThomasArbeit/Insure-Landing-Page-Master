@@ -23,6 +23,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .container--header {
   background-color: white;
@@ -68,7 +69,10 @@ p {
   border: none;
   padding: 17px 49px;
   margin-left: 58px;
+  height: 53px;
+  position: relative;
   cursor: pointer;
+  white-space: nowrap;
 }
 .button--cta {
   background-color: white;
@@ -84,6 +88,7 @@ p {
   display: flex;
   justify-content: center;
   padding: 139px 0 0 0;
+  position: relative;
 }
 .hero__section {
   display: flex;
@@ -126,15 +131,15 @@ p {
 }
 .hero__watermark {
   position: absolute;
-  top: 6px;
+  top: 0;
   right: 0;
-  height: 40vw;
+  height: 90%;
 }
 .hero__watermark--left {
   position: absolute;
   left: 0;
   bottom: -370px;
-  height: 40vw;
+  height: 80%;
 }
 
 .different {
@@ -176,8 +181,36 @@ p {
   color: #7E7E80;
   font-weight: 600;
 }
-.different__watermark {
+
+.work {
+  width: 1480px;
+  max-width: 1480px;
+  height: 333px;
+  background-color: #2C2640;
+  margin: 0 40px 200px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.work__watermark {
   position: absolute;
+  right: 0;
+  height: 100%;
+  z-index: 0;
+}
+.work__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 110px;
+}
+.work__title {
+  font-size: 75px;
+  line-height: 75px;
+  font-weight: 400;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

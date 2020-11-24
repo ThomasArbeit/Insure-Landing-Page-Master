@@ -6,7 +6,13 @@
     padding: 17px 49px;
     margin-left: 58px;
 
+    height: 53px;
+
+    position: relative;
+
     cursor: pointer;
+
+    white-space: nowrap;
 
     &--cta{
         background-color: white;
