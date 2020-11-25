@@ -14,4 +14,17 @@
 
         z-index: 1;
     }
+
+    &--footer{
+        position: relative;
+        background-color: #FAFAFA;
+        height: 524px;
+
+        &__watermark{
+            position: absolute;
+            left: 0;
+            z-index: 0;
+            height: 55%;
+        }
+    }
 }

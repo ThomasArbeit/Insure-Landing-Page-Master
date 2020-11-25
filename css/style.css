@@ -9,6 +9,10 @@ body {
   padding-top: 109px;
 }
 
+a {
+  display: block;
+}
+
 h1, h2, h3, h4 {
   font-family: "DM Serif Display";
   color: #2F2C33;
@@ -32,6 +36,17 @@ p {
   right: 0;
   left: 0;
   z-index: 1;
+}
+.container--footer {
+  position: relative;
+  background-color: #FAFAFA;
+  height: 524px;
+}
+.container--footer__watermark {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  height: 55%;
 }
 
 .header {
@@ -211,6 +226,60 @@ p {
   line-height: 75px;
   font-weight: 400;
   color: white;
+}
+
+.footer {
+  display: flex;
+  width: 1480px;
+  position: relative;
+  margin: 0 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer__socials {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.footer__socialsIcons {
+  display: flex;
+}
+.footer__icon {
+  margin-left: 23px;
+  height: 33px;
+  width: 33px;
+}
+.footer__icon img {
+  width: 100%;
+  height: auto;
+}
+.footer__icon img:hover {
+  fill: #2C2A2F;
+}
+.footer__nav {
+  border-top: 1px solid #D9D9D9;
+  padding-top: 63px;
+  display: flex;
+}
+.footer__row {
+  width: 25%;
+}
+.footer__row p {
+  font-size: 19px;
+  color: #7c7c7c;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+.footer__link {
+  font-family: "Karla";
+  color: #1F1D28;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.footer__link:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
